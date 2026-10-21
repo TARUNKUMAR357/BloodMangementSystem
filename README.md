@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LIFEPOINT — Blood Bank Management System
 
 A Python desktop DBMS project using Tkinter/CustomTkinter, PostgreSQL and psycopg 3. It includes staff login, a premium dashboard with a light/dark switch, donor and donation management, stock, hospitals, requests, blood issues, and CSV reports.
@@ -154,3 +155,6 @@ The login and dashboard use CustomTkinter for the premium style and theme switch
 - The inventory model stores aggregate millilitres by blood group; it does not track individual bags, component types, expiry, cross-matching, or clinical traceability. It is not suitable for real clinical use.
 - UI role restrictions are not a substitute for PostgreSQL permissions. Use a least-privilege database role for deployment.
 - `database/sample_data.sql` is optional. If IDs in your database differ, update the sample foreign-key values before running it.
+=======
+# BloodMangementSystem
+>>>>>>> 9afa154d7ed240fdad6138418a4d769f7a93b0d5
